@@ -1,0 +1,108 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    background-color: #f4f6f9;
+}
+
+/* SUMMARY CARDS */
+
+.summary-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.summary-card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 12px;
+    background: white;
+    border-left: 6px solid #0d6efd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.summary-card.available {
+    border-left-color: #198754;
+}
+
+.summary-card.occupied {
+    border-left-color: #dc3545;
+}
+
+.summary-card.rate {
+    border-left-color: #ffc107;
+}
+
+.summary-card h3 {
+    margin: 0;
+    color: #666;
+}
+
+.summary-card h1 {
+    margin: 5px 0 0 0;
+}
+
+/* PARKING GRID */
+
+.parking-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+/* SLOT CARDS */
+
+.slot-card {
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid;
+    background-color: white;
+}
+
+.slot-id {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.slot-status {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.slot-plate {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #555;
+}
+
+.icon {
+    font-size: 28px;
+}
+
+/* STATUS COLORS */
+
+.free {
+    border-color: #198754;
+    background-color: #e9f7ef;
+    color: #198754;
+}
+
+.pending {
+    border-color: #ffc107;
+    background-color: #fff8e1;
+    color: #b58900;
+}
+
+.occupied {
+    border-color: #dc3545;
+    background-color: #fdecea;
+    color: #dc3545;
+}
+
+.maintenance {
+    border-color: #6c757d;
+    background-color: #e9ecef;
+    color: #6c757d;
+}

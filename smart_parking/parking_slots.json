@@ -1,0 +1,74 @@
+{
+    "slots": [
+        {
+            "slot_id": "A1",
+            "status": "free",
+            "type": "normal",
+            "plate": null,
+            "ir_confirmed": false
+        },
+        {
+            "slot_id": "A2",
+            "status": "pending",
+            "type": "normal",
+            "plate": "KL47F7979",
+            "ir_confirmed": false
+        },
+        {
+            "slot_id": "A3",
+            "status": "pending",
+            "type": "normal",
+            "plate": "AL47F7975",
+            "ir_confirmed": false
+        },
+        {
+            "slot_id": "A4",
+            "status": "free",
+            "type": "normal",
+            "plate": null,
+            "ir_confirmed": false
+        },
+        {
+            "slot_id": "A5",
+            "status": "free",
+            "type": "normal",
+            "plate": null,
+            "ir_confirmed": false
+        },
+        {
+            "slot_id": "A6",
+            "status": "free",
+            "type": "normal",
+            "plate": null,
+            "ir_confirmed": false
+        },
+        {
+            "slot_id": "A7",
+            "status": "free",
+            "type": "normal",
+            "plate": null,
+            "ir_confirmed": false
+        },
+        {
+            "slot_id": "A8",
+            "status": "free",
+            "type": "normal",
+            "plate": null,
+            "ir_confirmed": false
+        },
+        {
+            "slot_id": "A9",
+            "status": "free",
+            "type": "normal",
+            "plate": null,
+            "ir_confirmed": false
+        },
+        {
+            "slot_id": "A10",
+            "status": "free",
+            "type": "normal",
+            "plate": null,
+            "ir_confirmed": false
+        }
+    ]
+}
